@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Is It A Word?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Link to your external JavaScript file -->
+    <script src="src/script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <div id="result">Is It A Word?</div><br>
+        <input type="text" id="word-input" placeholder="Type something...." autofocus aria-label="Word Input">
+        <div id="definition"></div>
+        <div id="ud-definition" style="display: none;"></div> <!-- New div for UD definitions -->
+
+        <button id="explore-button">Find it on Dictionary.com</button><br>
+
+        <button id="check-ud-button" style="display: none;">
+            <b style="padding-top: 7px;">Show Urban Dictionary results</b>&nbsp;
+            (⚠️ <i style="opacity: 0.7;">Warning: Explicit</i>)</button>
+
+    </div>
+</body>
+</html>
