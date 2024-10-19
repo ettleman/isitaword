@@ -6,7 +6,6 @@ body, html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s ease;
-    background-color: #f0f0f0; /* Light background for better contrast */
     text-align: center;
 }
 
@@ -195,4 +194,18 @@ body, html {
     .definition-card p {
         font-size: 0.9em;
     }
+}
+
+.ad {
+    opacity: 0.5; 
+    bottom: 10px; 
+    right: 5px; 
+    margin: auto; 
+    width: 300px; 
+    border-radius: 10px;
+}
+
+.ad:hover {
+    opacity: 1;
+    cursor:grab;
 }
